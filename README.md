@@ -10,3 +10,6 @@ conda activate myenv
 conda install ipykernel
 
 pip install -r requirements.txt
+
+conda install --file requirements.txt
+
