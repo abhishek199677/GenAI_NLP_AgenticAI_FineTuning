@@ -3,13 +3,12 @@ GenAi with NLP, Agentic AI and Fine Tuning
 
 
 
-conda create -n myenv python=3.8
+conda create -n genAI python=3.8 -y
 
-conda activate myenv
-
-conda install ipykernel
+conda activate genAI
 
 pip install -r requirements.txt
 
-conda install --file requirements.txt
+pip freeze #must be done before running the stud.app
+
 
